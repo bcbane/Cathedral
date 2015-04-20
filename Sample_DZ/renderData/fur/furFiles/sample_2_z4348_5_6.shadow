@@ -1,0 +1,344 @@
+hair "Gorilla(0)" {
+	area_group="Gorilla";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=20000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0.0325443,0.0322004,0.03306> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.21488,0.206285,0.213161> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.21,0.193005,0.19089> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=1 + ( 0.3 * noise(50,-1,1) );
+	sharpness=75 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.8 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.5 + ( 0 * noise(10,-1,1) );
+	width_base=0.02 + ( 0 * noise(10,-1,1) );
+	width_tip=0.01 + ( 0 * noise(10,-1,1) );
+	segments=20 + ( 0 * noise(10,-1,1) );
+	curl_base=0.5 + ( 0 * noise(10,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0.2 + ( 0 * noise(10,-1,1) );
+	frequency=20 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=0 + ( 0 * noise(10,-1,1) );
+	clumpfrequency=5 + ( 0 * noise(10,-1,1) );
+	clumpshape=0 + ( 0 * noise(10,-1,1) );
+	erectness=0.8 + ( 0 * noise(10,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 0.1 * noise(100,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "Punk(0)" {
+	area_group="Punk";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=10000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.96,0.134321,0.12864> + ( <0.1,0.1,0.1> * noise(200,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.243754,0.322,0.322> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0.00370304,0.0256366,0.05786> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=3 + ( 0.5 * noise(200,-1,1) );
+	sharpness=200 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.2 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.8 + ( 0 * noise(10,-1,1) );
+	width_base=0.05 + ( 0 * noise(10,-1,1) );
+	width_tip=0.03 + ( 0 * noise(10,-1,1) );
+	segments=20 + ( 0 * noise(10,-1,1) );
+	curl_base=0.5 + ( 0 * noise(10,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0 + ( 0 * noise(10,-1,1) );
+	frequency=5 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=1 + ( 0.2 * noise(80,-1,1) );
+	clumpfrequency=10 + ( 0 * noise(10,-1,1) );
+	clumpshape=-2 + ( 3 * noise(20,-1,1) );
+	erectness=0 + ( 0 * noise(10,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 0 * noise(10,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "Grass(0)" {
+	area_group="Grass";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=10000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0.28926,0.366,0.118584> + ( <0.2,0.2,0.2> * noise(50,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.763972,0.858,0.474474> + ( <0.4,0.4,0.4> * noise(100,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.281,0.224455,0.107904> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=2 + ( 1 * noise(20,-1,1) );
+	sharpness=80 + ( 0 * noise(10,-1,1) );
+	baldness=0.5 + ( 0.5 * noise(0.1,-1,1) );
+	opacity_base=1 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.75 + ( 0 * noise(10,-1,1) );
+	width_base=0.1 + ( 0.02 * noise(17,-1,1) );
+	width_tip=0.01 + ( 0.005 * noise(10.0017,-1,1) );
+	segments=10 + ( 0 * noise(10,-1,1) );
+	curl_base=0.75 + ( 0.1 * noise(5,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0 + ( 0 * noise(10,-1,1) );
+	frequency=5 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=0 + ( 0 * noise(10,-1,1) );
+	clumpfrequency=5 + ( 0 * noise(10,-1,1) );
+	clumpshape=0 + ( 0 * noise(10,-1,1) );
+	erectness=0.25 + ( 0.1 * noise(9,-1,1) );
+	roll=0.5 + ( 0.2 * noise(28,-1,1) );
+	polar=0.5 + ( 1 * noise(15,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "PolarBear(0)" {
+	area_group="PolarBear";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=50000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0.84298,0.803326,0.681128> + ( <0.4,0.4,0.4> * noise(100,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.989,0.938838,0.799112> + ( <0.1,0.1,0.1> * noise(100,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.45246,0.478517,0.6529> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=1 + ( 0.4 * noise(100,-1,1) );
+	sharpness=50 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.8 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.6 + ( 0 * noise(10,-1,1) );
+	width_base=0.05 + ( 0 * noise(10,-1,1) );
+	width_tip=0 + ( 0.01 * noise(100,-1,1) );
+	segments=10 + ( 0 * noise(10,-1,1) );
+	curl_base=0.5 + ( 0 * noise(10,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0.2 + ( 0 * noise(10,-1,1) );
+	frequency=5 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=0.075 + ( 0.05 * noise(50,-1,1) );
+	clumpfrequency=100 + ( 0 * noise(10,-1,1) );
+	clumpshape=0 + ( 0 * noise(10,-1,1) );
+	erectness=0.8 + ( 0.2 * noise(50,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 0.2 * noise(200,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "Sheep(0)" {
+	area_group="Sheep";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=30000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0.73554,0.716777,0.584019> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<1,0.961829,0.853> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.147699,0.144444,0.18192> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=1 + ( 2 * noise(40,-1,1) );
+	sharpness=100 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.7 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.7 + ( 0 * noise(10,-1,1) );
+	width_base=0.07 + ( 0 * noise(10,-1,1) );
+	width_tip=0.005 + ( 0 * noise(50,-1,1) );
+	segments=20 + ( 0 * noise(10,-1,1) );
+	curl_base=1 + ( 0.5 * noise(10,-1,1) );
+	curl_tip=1 + ( 0.2 * noise(10,-1,1) );
+	scraggle=0.5 + ( 0.5 * noise(20,-1,1) );
+	frequency=10 + ( 2 * noise(40,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=0.4 + ( 0.2 * noise(10,-1,1) );
+	clumpfrequency=100 + ( 30 * noise(50,-1,1) );
+	clumpshape=2 + ( 0 * noise(10,-1,1) );
+	erectness=1 + ( 0 * noise(10,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 2 * noise(10,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "Punk1(0)" {
+	area_group="Punk1";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=10000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.96,0.134321,0.12864> + ( <0.1,0.1,0.1> * noise(200,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.243754,0.322,0.322> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0.00370304,0.0256366,0.05786> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=3 + ( 0.5 * noise(200,-1,1) );
+	sharpness=200 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.2 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.8 + ( 0 * noise(10,-1,1) );
+	width_base=0.05 + ( 0 * noise(10,-1,1) );
+	width_tip=0.03 + ( 0 * noise(10,-1,1) );
+	segments=20 + ( 0 * noise(10,-1,1) );
+	curl_base=0.5 + ( 0 * noise(10,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0 + ( 0 * noise(10,-1,1) );
+	frequency=5 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=1 + ( 0.2 * noise(80,-1,1) );
+	clumpfrequency=10 + ( 0 * noise(10,-1,1) );
+	clumpshape=-2 + ( 3 * noise(20,-1,1) );
+	erectness=0 + ( 0 * noise(10,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 0 * noise(10,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "Punk2(0)" {
+	area_group="Punk2";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=10000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.96,0.134321,0.12864> + ( <0.1,0.1,0.1> * noise(200,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.243754,0.322,0.322> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0.00370304,0.0256366,0.05786> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=3 + ( 0.5 * noise(200,-1,1) );
+	sharpness=200 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.2 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.8 + ( 0 * noise(10,-1,1) );
+	width_base=0.05 + ( 0 * noise(10,-1,1) );
+	width_tip=0.03 + ( 0 * noise(10,-1,1) );
+	segments=20 + ( 0 * noise(10,-1,1) );
+	curl_base=0.5 + ( 0 * noise(10,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0 + ( 0 * noise(10,-1,1) );
+	frequency=5 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=1 + ( 0.2 * noise(80,-1,1) );
+	clumpfrequency=10 + ( 0 * noise(10,-1,1) );
+	clumpshape=-2 + ( 3 * noise(20,-1,1) );
+	erectness=0 + ( 0 * noise(10,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 0 * noise(10,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
+hair "Punk3(0)" {
+	area_group="Punk3";
+	matrix 	1 0 0 0
+	0 1 0 0
+	0 0 1 0
+	0 0 0 1
+	casts_shadows true
+	prim_visibility true
+	light_model=2;
+	density=10000;
+	usamples=32;
+	vsamples=32;
+	diffuse_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	diffuse_tip=<0.96,0.134321,0.12864> + ( <0.1,0.1,0.1> * noise(200,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	specular=<0.243754,0.322,0.322> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_base=<0,0,0> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	ambient_tip=<0.00370304,0.0256366,0.05786> + ( <0,0,0> * noise(10,<-1,-1,-1>,<1,1,1>) ) + <0,0,0>;
+	length=3 + ( 0.5 * noise(200,-1,1) );
+	sharpness=200 + ( 0 * noise(10,-1,1) );
+	baldness=1 + ( 0 * noise(10,-1,1) );
+	opacity_base=0.2 + ( 0 * noise(10,-1,1) );
+	opacity_tip=0.8 + ( 0 * noise(10,-1,1) );
+	width_base=0.05 + ( 0 * noise(10,-1,1) );
+	width_tip=0.03 + ( 0 * noise(10,-1,1) );
+	segments=20 + ( 0 * noise(10,-1,1) );
+	curl_base=0.5 + ( 0 * noise(10,-1,1) );
+	curl_tip=0.5 + ( 0 * noise(10,-1,1) );
+	scraggle=0 + ( 0 * noise(10,-1,1) );
+	frequency=5 + ( 0 * noise(10,-1,1) );
+	correlation=0 + ( 0 * noise(10,-1,1) );
+	clump=1 + ( 0.2 * noise(80,-1,1) );
+	clumpfrequency=10 + ( 0 * noise(10,-1,1) );
+	clumpshape=-2 + ( 3 * noise(20,-1,1) );
+	erectness=0 + ( 0 * noise(10,-1,1) );
+	roll=0.5 + ( 0 * noise(10,-1,1) );
+	polar=0.5 + ( 0 * noise(10,-1,1) );
+	attractors=1 + ( 0 * noise(10,-1,1) );
+	offset=0 + ( 0 * noise(10,-1,1) );
+	custom_equalizer=1 + ( 0 * noise(10,-1,1) );
+	reference_equalmap=" ";
+	equalmap_type=1;
+	equalizer=image("//RBOXXMANAGER117/projects/sample_dz/renderData/fur/furEqualMap//sample_2_z_$M_eqMap_1.iff", "r");
+}
